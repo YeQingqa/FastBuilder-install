@@ -9,9 +9,9 @@ case "${num}" in
     ;;
     1) bash -c "$(curl -fsSL https://omega-1259160345.cos.ap-nanjing.myqcloud.com/fastbuilder_launcher/install.sh)"
     ;;
-    2) export PB_USE_GH_REPO=1  && bash -c "$(curl -fsSL https://download.yeqingg.cn/fastbuilder/install.sh)"
+    2) export PB_USE_GH_REPO=1 && export GH_DOMAIN="https://github.moeyy.xyz/https://github.com/" && bash -c "$(curl -fsSL https://github.moeyy.xyz/https://raw.githubusercontent.com/LNSsPsd/PhoenixBuilder/main/install.sh)"
     ;;
-    3) export PB_USE_GH_REPO=1  && bash -c "$(curl -fsSL https://download.yeqingg.cn/fastbuilderlibre/install.sh)"
+    3) export PB_USE_GH_REPO=1 && export GH_DOMAIN="https://github.moeyy.xyz/https://github.com/" && bash -c "$(curl -fsSL https://github.moeyy.xyz/https://raw.githubusercontent.com/LNSsPsd/PhoenixBuilder/libre/install.sh)"
     ;;
     *) echo -e "${red}请输入数字[0-3]${plain}"
     ;;
