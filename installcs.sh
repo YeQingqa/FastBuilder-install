@@ -104,13 +104,13 @@ install_neomega() {
 # 安装 FastBuilder
 install_fastbuilder() {
     echo "正在安装 FastBuilder ..."
-    export PB_USE_GH_REPO=1 && export GH_DOMAIN="https://github.moeyy.xyz/https://github.com/" && bash -c "$(curl -fsSL https://download.yeqingg.cn/fastbuilder/install.sh)"
+    export PB_USE_GH_REPO=1 && export GH_DOMAIN="https://github.moeyy.xyz/https://github.com/" && bash -c "$(curl -fsSL https://github.moeyy.xyz/https://raw.githubusercontent.com/LNSsPsd/PhoenixBuilder/main/install.sh)"
 }
 
 # 安装 FastBuilder-Libre
 install_fastbuilder_libre() {
     echo "正在安装 FastBuilder-Libre ..."
-    export PB_USE_GH_REPO=1 && export GH_DOMAIN="https://github.moeyy.xyz/https://github.com/" && bash -c "$(curl -fsSL https://download.yeqingg.cn/fastbuilderlibre/install.sh)"
+    export PB_USE_GH_REPO=1 && export GH_DOMAIN="https://github.moeyy.xyz/https://github.com/" && bash -c "$(curl -fsSL https://github.moeyy.xyz/https://raw.githubusercontent.com/LNSsPsd/PhoenixBuilder/libre/install.sh)"
 }
 
 # 主函数
